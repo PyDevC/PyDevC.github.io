@@ -1,24 +1,21 @@
 title: PyDevC
 author: PyDevC
 description: >-
-  Compilers, MLIR, and developer tooling. I build things that turn
-  high-level programs into fast, portable code.
+  Compilers, MLIR, and developer tooling. I like coding by hand.
 url: "https://pydevc.github.io"
 baseurl: ""
 lang: en
 
 theme: minima
 
-# Minima 2.5.x social keys
 github_username: PyDevC
+gmail_id: pydevc@proton.me
 
-# Order of links in the header. Home is reached via the site title.
 header_pages:
   - about.md
   - projects.md
   - blogs.md
   - connect.md
-  - stuff.md
 
 show_excerpts: true
 
@@ -29,11 +26,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Keep planning notes, repo docs, and the legacy About.md out of the built site.
 exclude:
-  - PLAN.md
-  - README.md
-  - About.md
   - Gemfile
   - Gemfile.lock
   - vendor/
