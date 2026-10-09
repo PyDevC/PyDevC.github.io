@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+
+  <!-- Fonts: Newsreader (text) + JetBrains Mono (code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+  <!-- Apply the saved/system theme before first paint (no flash) -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+  <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+
+  {%- feed_meta -%}
+</head>
