@@ -140,7 +140,9 @@ table, table th, table td { border-color: var(--border); }
 
 .button-row { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
 .button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: .45em;
   font-size: .85rem;
   text-decoration: none;
   border: 1px solid var(--brand);
@@ -151,6 +153,8 @@ table, table th, table td { border-color: var(--border); }
 .button:hover { background: var(--brand); color: var(--bg); text-decoration: none; }
 .button--solid { background: var(--brand); color: var(--bg); }
 .button--solid:hover { background: var(--brand-hover); border-color: var(--brand-hover); }
+
+.button .icon { width: 1em; height: 1em; flex: 0 0 auto; }
 
 /* ---------- 7. Project cards ---------- */
 .projects {
