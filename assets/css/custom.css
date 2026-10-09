@@ -95,9 +95,19 @@ pre code { background: none; padding: 0; }
 .site-nav .page-link { color: var(--text-muted); }
 .site-nav .page-link:hover { color: var(--text); }
 
+/* Header row: nav sits to the right, theme toggle pinned at the far-right end */
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+}
+.site-header .wrapper::after { display: none; }
+.site-title { float: none; margin-right: auto; }
+.site-nav   { float: none; }
+
 /* ---------- 4. Theme toggle ---------- */
 .theme-toggle {
   display: inline-block;
+  flex: 0 0 auto;
   vertical-align: middle;
   margin-left: .6rem;
   background: none;
@@ -114,6 +124,11 @@ pre code { background: none; padding: 0; }
 .theme-toggle__moon { display: none; }
 html[data-theme="light"] .theme-toggle__sun  { display: inline; }
 html[data-theme="dark"]  .theme-toggle__moon { display: inline; }
+
+/* On small screens the nav becomes an absolute hamburger; keep the toggle clear of it */
+@media screen and (max-width: 600px) {
+  .theme-toggle { margin-right: 2.75rem; }
+}
 
 /* ---------- 5. Content ---------- */
 hr { border-color: var(--border); }
