@@ -1,0 +1,8 @@
+{%- comment -%}
+  Reusable icon. The shapes are defined as symbols in assets/icons.svg.
+  Usage: {% include icon.html name="github" %}
+{%- endcomment -%}
+<svg class="icon" aria-hidden="true" focusable="false">
+  <use href="{{ '/assets/icons.svg' | relative_url }}#{{ include.name }}"
+       xlink:href="{{ '/assets/icons.svg' | relative_url }}#{{ include.name }}"></use>
+</svg>

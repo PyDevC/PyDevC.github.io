@@ -11,10 +11,15 @@ theme: minima
 github_username: PyDevC
 gmail_id: pydevc@proton.me
 
+linkedin_url: "#"
+resume_url: "#"
+cv_url: "#"
+
 header_pages:
   - about.md
   - projects.md
-  - blogs.md
+  - experience.md
+  - reader-stack.md
   - connect.md
 
 show_excerpts: true
