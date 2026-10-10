@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-<p class="page-meta"><em>Last updated: October 9, 2026</em></p>
-
 My name is **Anushk Sharma**, and I go by **PyDevC** online. I write compilers
 and developer tooling. My work sits in two places: MLIR-based compilation, and
 Neovim tooling.

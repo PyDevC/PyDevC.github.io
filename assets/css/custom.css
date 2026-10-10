@@ -139,7 +139,6 @@ blockquote {
   font-style: italic;
 }
 table, table th, table td { border-color: var(--border); }
-.page-meta { color: var(--text-muted); }
 
 /* ---------- 6. Home hero ---------- */
 .hero { padding: 1.75rem 0 1rem; }

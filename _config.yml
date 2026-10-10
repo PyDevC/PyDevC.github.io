@@ -22,13 +22,7 @@ header_pages:
   - reader-stack.md
   - connect.md
 
-show_excerpts: true
-
-minima:
-  date_format: "%b %-d, %Y"
-
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 exclude:
