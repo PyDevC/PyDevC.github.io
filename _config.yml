@@ -1,4 +1,4 @@
-title: PyDevC
+title: PyDevC Workspace
 author: PyDevC
 description: >-
   Compilers, MLIR, and developer tooling. I like coding by hand.
@@ -11,8 +11,8 @@ theme: minima
 github_username: PyDevC
 gmail_id: pydevc@proton.me
 
-linkedin_url: "#"
-resume_url: "#"
+linkedin_url: "https://in.linkedin.com/in/anuskcseml"
+resume_url: "https://drive.google.com/file/d/1QEfb0p1Dz1A9OPYskLZ1fdEjx6zMdr0J/view?usp=sharing"
 cv_url: "#"
 
 header_pages:
