@@ -5,11 +5,10 @@ permalink: /about/
 ---
 
 My name is **Anushk Sharma**, and I go by **PyDevC** online. I write compilers
-and developer tooling. My work sits in two places: MLIR-based compilation, and
-Neovim tooling.
+and developer tooling. 
 
 I care about open source that is actually open, and I'm working toward becoming
-an **AI compiler framework engineer** — with an eye on backend and code-generation
+an **AI compiler framework engineer**, with an eye on backend and code-generation
 roles at companies like AMD, NVIDIA, and Qualcomm.
 
 ## Current focus
